@@ -1,0 +1,254 @@
+chunk_size: 6
+chunk_overlap: 1
+top_k_per_method: 25
+enabled_methods:
+  term:
+  - yake
+  - ollama_extract_terms
+  type:
+  - keyword_type_rules
+  relation: []
+  alias: []
+typing_filter:
+  enabled: true
+  promote_labels:
+  - system
+  - part
+  - capability
+  - parameter
+  - environment
+  - domain
+  label_weights:
+    system: 0.18
+    part: 0.16
+    mission: 0.08
+    capability: 0.14
+    parameter: 0.12
+    environment: 0.1
+    domain: 0.08
+  unknown_penalty: 0.2
+  llm_bonus: 0.05
+  keyword_bonus: 0.03
+  min_label_confidence: 0.6
+graph_filter:
+  enabled: false
+  chunk_weight: 0.3
+  sentence_weight: 0.35
+  label_weight: 0.38
+  same_label_bonus: 0.12
+  pagerank_weight: 0.28
+  closeness_weight: 0.22
+  degree_weight: 0.16
+  community_weight: 0.14
+  label_cohesion_weight: 0.1
+  typing_support_weight: 0.15
+  betweenness_penalty: 0.1
+  graph_floor: 0.55
+  min_edge_weight: 0.15
+  min_chunk_support: 1
+  min_typing_support: 0.55
+graph_rank:
+  seed_methods:
+  - ollama_extract_terms
+  - yake
+  use_typed_candidates: true
+  typed_boost_weight: 0.35
+confidence_defaults:
+  YAKE: 0.55
+  TFIDF: 0.5
+  GRAPH: 0.58
+  NOUN_PHRASE: 0.68
+  BERT: 0.62
+  SBERT: 0.64
+  LLM: 0.7
+  RULE: 0.72
+  DEPENDENCY: 0.78
+thresholds:
+  low: 0.35
+  medium: 0.6
+  high: 0.8
+term_filter:
+  minimum_confidence: 0.65
+node_filter:
+  minimum_confidence: 0.78
+  minimum_method_support: 2
+  minimum_chunk_support: 1
+bayesian_term_belief:
+  prior: 0.2
+  promote_threshold: 0.78
+  reject_threshold: 0.2
+  min_chunk_support_for_promotion: 2
+  method_log_likelihood:
+    LLM: 1.15
+    NOUN_PHRASE: 0.6
+    YAKE: 0.42
+    TFIDF: 0.38
+    GRAPH: 0.52
+    RULE: 0.5
+    BERT: 0.7
+    SBERT: 0.72
+    DEPENDENCY: 0.85
+  bonuses:
+    local_confidence_scale: 1.7
+    repeat_chunk: 0.55
+    new_method: 0.18
+    cross_family: 0.35
+    strong_local: 0.3
+    domain_keyword: 0.2
+  penalties:
+    weak_surface: 0.5
+    generic_phrase: 0.4
+    artifact_scale: 1.2
+bayesian_belief:
+  prior: 0.2
+  promote_threshold: 0.7
+  reject_threshold: 0.2
+  min_chunk_support_for_promotion: 1
+  stage_weights:
+    TERM: 0.95
+    TYPE: 0.8
+    RELATION: 0.88
+    ALIAS: 0.92
+  method_family_weights:
+    LLM: 1.1
+    NOUN_PHRASE: 0.45
+    YAKE: 0.35
+    TFIDF: 0.4
+    GRAPH: 0.5
+    RULE: 0.5
+    BERT: 0.7
+    SBERT: 0.72
+    DEPENDENCY: 0.85
+  bonuses:
+    repeat_chunk: 0.45
+    new_method: 0.15
+    new_family: 0.25
+    strong_local: 0.25
+    same_sentence: 0.2
+    domain_keyword: 0.18
+  penalties:
+    weak_surface: 0.4
+    generic_phrase: 0.35
+    artifact_scale: 1.1
+    unknown_object: 0.1
+ollama:
+  model: llama3.1:8b
+  temperature: 0.0
+  keep_alive: 5m
+  timeout_sec: 900
+  num_ctx: 8192
+semantic_term_filter:
+  enabled: true
+  model_path: models/all-mpnet-base-v2
+  max_context_sentences: 5
+  neighbors_k: 10
+  similarity_floor: 0.5
+  neighborhood_weight: 0.3
+  quality_weight: 0.2
+  artifact_penalty_weight: 0.6
+  hard_reject_artifact_score: 0.9
+  analogy_filter:
+    enabled: true
+    positive_seed_count: 100
+    negative_seed_count: 100
+    min_seed_terms: 10
+    positive_posterior_min: 0.8
+    positive_surface_min: 0.65
+    positive_artifact_max: 0.1
+    positive_digit_ratio_max: 0.1
+    negative_artifact_min: 0.6
+    negative_digit_ratio_min: 0.35
+    axis_weight: 0.3
+    decision_floor: 0.55
+  artifact_filter:
+    patterns:
+    - name: date_pattern
+      pattern: ^\s*(?:\d{1,2}\s+)?(?:jan|january|feb|february|mar|march|apr|april|may|jun|june|jul|july|aug|august|sep|sept|september|oct|october|nov|november|dec|december)(?:\s+\d{1,2})?(?:\s+\d{4})?\s*$
+      score: 1.0
+      hard_reject: true
+    - name: year_pattern
+      pattern: ^\s*(?:19|20)\d{2}[a-z]?[\)\].,;:]*\s*$
+      score: 0.99
+      hard_reject: true
+    - name: pure_numeric
+      pattern: ^\s*[-+<>~]?\d[\d\s,./^()*-]*[a-z%°]*\s*$
+      score: 1.0
+      hard_reject: true
+      alpha_count_max: 0
+    - name: measurement_pattern
+      pattern: \b\d+(?:[.,]\d+)?(?:\s*[-/]\s*\d+(?:[.,]\d+)?)?\s*(?:km|m|cm|mm|kg|g|mg|lb|ft|kft|m/s|km/h|mph|kts|kt|h|hr|hrs|hz|khz|mhz|ghz|v|kv|w|kw|mw|ma|a|db|nm|um|%|kwh|mah|wh|j|kj|mj|n|kn|pa|kpa|mpa)\b
+      score: 0.72
+      score_if_alpha_tokens_lte: 0.93
+      hard_reject_if_alpha_tokens_lte: 1
+    - name: magnitude_number_pattern
+      pattern: \b\d+(?:[.,]\d+)?\s*(?:thousand|million|billion|trillion|percent|%)\b
+      score: 0.95
+      hard_reject: true
+    - name: table_or_citation_artifact
+      pattern: \\hline|\b(?:fig|table|pp|ibid|et al)\b|\bmathrm\b|\$|\(|\)|\\
+      score: 0.85
+    digit_heavy_score: 0.82
+    digit_heavy_ratio: 0.45
+    digit_heavy_alpha_count_max: 6
+    leading_zero_score: 0.96
+    leading_zero_prefixes:
+    - '000'
+    - '00'
+  typed_support_weight: 0.2
+  typed_support_threshold: 0.55
+  typed_promotion_floor: 0.75
+  anchor_weight: 0.25
+  anchor_similarity_floor: 0.7
+  anchor_promotion_floor: 0.8
+  soft_reject_axis_score: 0.42
+  low_axis_penalty: 0.12
+  hard_reject_axis_score: 0.32
+  hard_reject_artifact_min: 0.5
+gold_evaluation:
+  labels_csv: data/gold/terms_labels_GT.csv
+  gt_notes:
+    Handbook_of_Unmanned_Aerial_Vehicles_chapter5: GT labels CSV contains expected
+      labels for chapter 5 terms.
+    Handbook_of_Unmanned_Aerial_Vehicles_chapter6: GT labels CSV contains expected
+      labels for chapter 6 terms.
+  threshold_sweep:
+  - 0.55
+  - 0.6
+  - 0.65
+  - 0.7
+  - 0.72
+  - 0.75
+  - 0.8
+  - 0.85
+domain_keywords:
+- actuator
+- aerial
+- airframe
+- altitude
+- autopilot
+- avionics
+- control
+- drone
+- flight
+- gcs
+- gps
+- imu
+- inertial
+- navigation
+- payload
+- propeller
+- rotor
+- sensor
+- telemetry
+- uas
+- uav
+- unmanned
+- waypoint
+- wing
+evidence_diversity:
+  enabled: true
+  minimum_score: 0.55
+  method_weight: 0.28
+  family_weight: 0.24
+  chunk_weight: 0.24
+  sentence_weight: 0.24

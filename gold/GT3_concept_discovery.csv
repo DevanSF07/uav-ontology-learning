@@ -1,0 +1,129 @@
+term,group
+uav classification,classificationconcept
+mtow classification,classificationconcept
+altitude classification,classificationconcept
+ownership classification,classificationconcept
+autonomy classification,classificationconcept
+nato uav classification,classificationconcept
+class i uav,classificationconcept
+class ii uav,classificationconcept
+class iii uav,classificationconcept
+micro uav,classificationconcept
+mini uav,classificationconcept
+small uav,classificationconcept
+tactical uav,classificationconcept
+male uav,classificationconcept
+hale uav,classificationconcept
+ucav,classificationconcept
+vla/los,classificationconcept
+vla/blos,classificationconcept
+vha,classificationconcept
+public uav,classificationconcept
+state uav,classificationconcept
+civil uav,classificationconcept
+remotely piloted,classificationconcept
+remotely operated,classificationconcept
+semiautonomous,classificationconcept
+fully autonomous,classificationconcept
+minor deviations,classificationconcept
+remarkable deviations,classificationconcept
+considerable deviations,classificationconcept
+extreme deviations,classificationconcept
+uas,systemelement
+rpas,systemelement
+aircraft,systemelement
+ground control station,systemelement
+communication link,systemelement
+launch and retrieval system,systemelement
+remote pilot station,systemelement
+command and control link,systemelement
+data link,systemelement
+satellite data link,systemelement
+los data link,systemelement
+blos satellite data link,systemelement
+ground data terminal,systemelement
+portable gcs,systemelement
+rvt,systemelement
+air vehicle transporter,systemelement
+payload,systemelement
+sensor,systemelement
+eo/ir sensor,systemelement
+ground surveillance radar system,systemelement
+modular sensor suite,systemelement
+gimbaled sensor payload,systemelement
+airframe,systemelement
+wankel engine,systemelement
+tactical automatic landing system,systemelement
+mini uav,militaryconcept
+micro air vehicle,militaryconcept
+small uas,militaryconcept
+tactical uav,militaryconcept
+male uav,militaryconcept
+hale uav,militaryconcept
+vtol uav,militaryconcept
+ucav,militaryconcept
+attack uav,militaryconcept
+attack mav,militaryconcept
+persistent isr,militaryconcept
+c-ied task,militaryconcept
+maritime isr,militaryconcept
+strategic reconnaissance,militaryconcept
+close air support,militaryconcept
+deep penetration strike,militaryconcept
+cargo and supplies delivery,militaryconcept
+humanitarian aid operation,militaryconcept
+casualty evacuation,militaryconcept
+medical evacuation,militaryconcept
+civilian uav application,civilianapplication
+scientific research,civilianapplication
+search and rescue,civilianapplication
+emergency response,civilianapplication
+traffic control,civilianapplication
+infrastructure support,civilianapplication
+aerial photography,civilianapplication
+forest protection,civilianapplication
+wildfire monitoring,civilianapplication
+environmental monitoring,civilianapplication
+pipeline inspection,civilianapplication
+coast guard support,civilianapplication
+earth observation,civilianapplication
+surveillance,civilianapplication
+law enforcement,civilianapplication
+border surveillance,civilianapplication
+civilian air cargo,civilianapplication
+weather/atmospheric data collection,civilianapplication
+oceanographic data collection,civilianapplication
+agricultural monitoring,civilianapplication
+geological mapping,civilianapplication
+airspace integration,regulatoryriskconcept
+sense and avoid,regulatoryriskconcept
+airworthiness certification,regulatoryriskconcept
+controlled airspace,regulatoryriskconcept
+civilian airspace,regulatoryriskconcept
+restricted airspace,regulatoryriskconcept
+satellite communications,regulatoryriskconcept
+data link security,regulatoryriskconcept
+hostile jamming,regulatoryriskconcept
+satellite bandwidth,regulatoryriskconcept
+mtcr export restriction,regulatoryriskconcept
+rq-11b raven,platformvariant
+wasp,platformvariant
+puma ae,platformvariant
+gmav,platformvariant
+t-hawk,platformvariant
+tarantula-hawk,platformvariant
+tacmav,platformvariant
+nighthawk,platformvariant
+aai rq-7b shadow 200 tuav,platformvariant
+shadow 200,platformvariant
+rq-2 pioneer,platformvariant
+mq-9 reaper,platformvariant
+heron 1 uav,platformvariant
+harop,platformvariant
+tiger,platformvariant
+bae systems herti,platformvariant
+ampersand uav,platformvariant
+patroller,platformvariant
+predator xp,platformvariant
+i-drone quadrotor uav,platformvariant
+camcopter s-100 vtol uav,platformvariant

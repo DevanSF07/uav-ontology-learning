@@ -1,0 +1,9 @@
+yake
+rake-nltk
+keybert
+sentence-transformers
+nltk
+pandas
+scikit-learn
+spacy
+scispacy_pos_patterns_lg

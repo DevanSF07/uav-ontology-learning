@@ -1,0 +1,36 @@
+{
+  "input_file": "ontology_experiment_framework/stage_outputs/04_gliner_filtering/best_gliner_retained.csv",
+  "output_dir": "ontology_experiment_framework/stage_outputs/06_seed_guided_contextual_clustering",
+  "embedding_model": "models/all-mpnet-base-v2",
+  "seed_terms": [
+    "UAV"
+  ],
+  "seed_similarity_threshold": 0.7,
+  "graph_similarity_threshold": 0.7,
+  "graph_depth": 3,
+  "graph_neighbors": 10,
+  "context_sentence_limit": 5,
+  "reference_coverage_threshold": 0.5,
+  "stability_jaccard_threshold": 0.5,
+  "cross_method_overlap_threshold": 0.5,
+  "cluster_methods": [
+    {
+      "name": "kmeans",
+      "n_clusters": 8,
+      "random_state": 42
+    },
+    {
+      "name": "birch",
+      "n_clusters": 8
+    },
+    {
+      "name": "hdbscan_umap",
+      "umap_n_neighbors": 15,
+      "umap_min_dist": 0.0,
+      "umap_n_components": 5,
+      "hdbscan_min_cluster_size": 8,
+      "hdbscan_min_samples": 1,
+      "random_state": 42
+    }
+  ]
+}

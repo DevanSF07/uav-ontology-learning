@@ -1,0 +1,82 @@
+{
+  "labels": {
+    "system": {
+      "definition": "A general engineered object, vehicle, platform, device, subsystem, or operational system treated as a functional whole. Use system for system types, categories, variants, subtypes, named platforms, named vehicles, and named system models.",
+      "examples": [
+        "UAV",
+        "unmanned aerial vehicle",
+        "airframe",
+        "fixed-wing UAV",
+        "rotary-wing UAV",
+        "MQ-9 Reaper"
+      ]
+    },
+    "part": {
+      "definition": "A physical, structural, electrical, communication, software, sensor, launcher, interface, or logical component that belongs to or is contained in a system.",
+      "examples": [
+        "EO sensor",
+        "autopilot",
+        "camera gimbal",
+        "payload bay",
+        "battery pack",
+        "data link"
+      ]
+    },
+    "mission": {
+      "definition": "A goal, use case, operational purpose, or task for which a system is employed. Ask: why is the system being used?",
+      "examples": [
+        "reconnaissance mission",
+        "surveillance mission",
+        "delivery mission",
+        "mapping mission"
+      ]
+    },
+    "capability": {
+      "definition": "An ability, operational function, or service the system can provide. Ask: what can the system do?",
+      "examples": [
+        "autonomous navigation",
+        "collision avoidance",
+        "target tracking",
+        "sense and avoid"
+      ]
+    },
+    "parameter": {
+      "definition": "A measurable, configurable, constrained, or value-like property. Ask: how much / how fast / how large / what value / what range?",
+      "examples": [
+        "MTOW",
+        "maximum takeoff weight",
+        "payload capacity",
+        "endurance",
+        "range",
+        "airspeed"
+      ]
+    },
+    "environment": {
+      "definition": "An external operating condition, medium, location, terrain, airspace, weather condition, or surrounding context in which a system operates.",
+      "examples": [
+        "urban airspace",
+        "maritime environment",
+        "desert airspace",
+        "crosswind conditions",
+        "indoor environment"
+      ]
+    },
+    "domain": {
+      "definition": "A broad operational or institutional domain such as civil, military, public, maritime, etc.",
+      "examples": [
+        "military",
+        "civil",
+        "public safety",
+        "maritime",
+        "agricultural"
+      ]
+    },
+    "unknown": {
+      "definition": "Use only if the context is insufficient or the term does not clearly fit any allowed label.",
+      "examples": [
+        "unspecified concept",
+        "ambiguous phrase"
+      ]
+    }
+  }
+}

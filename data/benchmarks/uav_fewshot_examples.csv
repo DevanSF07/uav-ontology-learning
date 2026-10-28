@@ -1,0 +1,15 @@
+id,term,context,label
+ex1,fixed-wing UAV,The fixed-wing UAV is a long-endurance aerial platform used as a complete vehicle.,system
+ex2,MQ-9 Reaper,MQ-9 Reaper is a remotely piloted aircraft platform used in long-endurance operations.,system
+ex3,EO sensor,The EO sensor is mounted on the payload for daytime target observation.,part
+ex4,battery pack,The battery pack powers avionics and onboard electronics as a contained module.,part
+ex5,surveillance mission,The system is employed for surveillance mission planning and execution.,mission
+ex6,reconnaissance mission,The aircraft is tasked with reconnaissance mission support in contested regions.,mission
+ex7,autonomous navigation,The platform provides autonomous navigation during GNSS-degraded flight.,capability
+ex8,collision avoidance,Collision avoidance allows the system to avoid conflicts and maintain separation.,capability
+ex9,maximum takeoff weight,The maximum takeoff weight is limited to a specific kilogram value.,parameter
+ex10,payload capacity,Payload capacity specifies how much the aircraft can carry.,parameter
+ex11,urban airspace,The UAV operates in urban airspace with strict corridor constraints.,environment
+ex12,maritime environment,The aircraft is designed for operation in maritime environment conditions.,environment
+ex13,military,The platform belongs to a military operational category.,domain
+ex14,civil,The vehicle is intended for civil applications and regulatory frameworks.,domain

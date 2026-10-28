@@ -1,0 +1,67 @@
+term,entity_type
+uav,system
+uas,system
+rpas,system
+aircraft,systemelement
+ground control station,subsystem
+communication link,interface
+launch and retrieval system,subsystem
+remote pilot station,subsystem
+command and control link,interface
+data link,interface
+satellite data link,interface
+ground data terminal,component
+portable gcs,subsystem
+rvt,component
+air vehicle transporter,supportsystem
+payload,subsystem
+sensor,component
+eo/ir sensor,component
+ground surveillance radar system,component
+modular sensor suite,subsystem
+gimbaled sensor payload,subsystem
+airframe,subsystem
+wankel engine,component
+tactical automatic landing system,subsystem
+range,feature
+endurance,feature
+wingspan,feature
+maximum speed,feature
+maximum service ceiling,feature
+class i uav,uavclass
+class ii uav,uavclass
+class iii uav,uavclass
+micro uav,uavclass
+mini uav,uavclass
+small uav,uavclass
+tactical uav,uavclass
+male uav,uavclass
+hale uav,uavclass
+ucav,uavclass
+vtol uav,uavclass
+mtow,classificationcriterion
+ground impact risk,riskcriterion
+kinetic energy,physicalmeasure
+sense and avoid,safetyfunction
+midair collision,risk
+airworthiness certification,regulatoryrequirement
+faa,regulatoryorganization
+easa,regulatoryorganization
+icao,regulatoryorganization
+nas,airspaceconcept
+mtcr,regulatoryregime
+isr,mission
+istar,mission
+sead,mission
+c-ied,mission
+search and rescue,mission/application
+emergency response,mission/application
+pipeline inspection,mission/application
+agricultural monitoring,mission/application
+rq-11b raven,platformvariant
+puma ae,platformvariant
+wasp,platformvariant
+gmav,platformvariant
+shadow 200,platformvariant
+harop,platformvariant
+camcopter s-100 vtol uav,platformvariant

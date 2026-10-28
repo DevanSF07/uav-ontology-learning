@@ -1,0 +1,4 @@
+from pathlib import Path
+p=Path('data'); p.mkdir(exist_ok=True)
+(p/'demo_chapter5_chapter6.mmd').write_text("# Chapter 5 Aircraft Architecture\n\nThe unmanned aircraft system contains a flight control subsystem, navigation sensor, power component, and communication interface. The flight-control system exchanges command data with the ground control station. Battery voltage is a monitored parameter.\n\n| Part | Supplier |\n|---|---|\n| Camera | Example Corp |\n\n# Chapter 6 Mission Operations\n\nThe surveillance mission requires imaging capability. Mission planning is an activity performed before flight. Wind and terrain describe the operating environment. UAS (unmanned aircraft system) is a classification class used in this chapter.\n\n# References\n\nSmith, J. Example Book. Example University, 2020.\n",encoding='utf-8')
+print(p/'demo_chapter5_chapter6.mmd')

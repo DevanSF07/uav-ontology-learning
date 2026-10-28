@@ -1,0 +1,758 @@
+[
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#MA_A",
+    "term": "MA/A",
+    "aliases": [
+      "Medium altitude in Class A"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#GCS",
+    "term": "Ground Control Station",
+    "aliases": [
+      "GCS"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#CoastGuardSupport",
+    "term": "coast guard support",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#WildfireMonitoring",
+    "term": "wildfire monitoring",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#AerialVehicle",
+    "term": "Aerial vehicle",
+    "aliases": [
+      "Air vehicle"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Payload",
+    "term": "Payload",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#catapult",
+    "term": "catapult",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#SearchAndRescue",
+    "term": "search and rescue",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#ControlledAirspace",
+    "term": "controlled airspace",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#AltitudeFacet",
+    "term": "operational altitude",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#CivilianUnmannedSystem",
+    "term": "Civilian Unmanned Systems",
+    "aliases": [
+      "civil",
+      "civil UAV"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Mission",
+    "term": "Mission",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#MUAVs",
+    "term": "Mini UAVs",
+    "aliases": [
+      "MUAVs"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Small",
+    "term": "Small",
+    "aliases": [
+      "20–150 kg"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#HALE",
+    "term": "High altitude long endurance",
+    "aliases": [
+      "HALE"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#LTA",
+    "term": "lighter-than-air platforms",
+    "aliases": [
+      "LTA"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#RPAS",
+    "term": "RPAS",
+    "aliases": [
+      "Remotely piloted aircraft system"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#UAV",
+    "term": "UAV",
+    "aliases": [
+      "Unmanned aerial vehicle"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#TUAVs",
+    "term": "TUAV",
+    "aliases": [
+      "Tactical UAV"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#ForestProtection",
+    "term": "forest protection",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Mini",
+    "term": "Mini",
+    "aliases": [
+      "2–20 kg"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#hand_catapult",
+    "term": "hand",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Ultralight",
+    "term": "Ultralight",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#VLA_BLOS",
+    "term": "VLA/BLOS",
+    "aliases": [
+      "Very low altitude (BLOS)"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#UCAV",
+    "term": "unmanned combat aerial vehicles",
+    "aliases": [
+      "UCAV"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#SUAS",
+    "term": "small UAS",
+    "aliases": [
+      "SUAS",
+      "sUAS"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#ClassI",
+    "term": "Class I",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#AutonomyFacet",
+    "term": "autonomy",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Part",
+    "term": "Part",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Civilian",
+    "term": "civilian UAV",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#unmanned_ground_systems",
+    "term": "unmanned ground systems",
+    "aliases": [
+      "UGS"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#ClassII",
+    "term": "Class II",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Large",
+    "term": "Large",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Metamodel",
+    "term": "Metamodel",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#ScientificResearch",
+    "term": "scientific research",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#PerformanceFacet",
+    "term": "performance",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#DeepPenetrationStrike",
+    "term": "DeepPenetrationStrike",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#UrbanEnvironment",
+    "term": "UrbanEnvironment",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#EO_Camera",
+    "term": "EO_Camera",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#OperatorInterface",
+    "term": "Operator interface",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#RPA",
+    "term": "RPA",
+    "aliases": [
+      "Remotely piloted aircraft"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#OwnershipFacet",
+    "term": "ownership",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Micro",
+    "term": "Micro",
+    "aliases": [
+      "<2 kg"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Short_Take-Off_and_Landing_OPV",
+    "term": "Short Take-Off and Landing OPV",
+    "aliases": [
+      "STOL OPV"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#UAS",
+    "term": "UAS",
+    "aliases": [
+      "Unmanned aircraft system"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Long_Range_Acoustic_Device",
+    "term": "Long_Range_Acoustic_Device",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#LaunchRetrievalSystem",
+    "term": "Launch and retrieval system",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#ClassIII",
+    "term": "Class III",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#TrafficControlTasks",
+    "term": "traffic control tasks",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#MilitaryFacet",
+    "term": "military",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#public",
+    "term": "public",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Environment",
+    "term": "Environment",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#MA",
+    "term": "MA",
+    "aliases": [
+      "Medium altitude"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#unmanned_ground_vehicles",
+    "term": "unmanned ground vehicles",
+    "aliases": [
+      "UGVs"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#SEAD",
+    "term": "SEAD",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Agricultural",
+    "term": "agricultural monitoring",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#PipelineInspection",
+    "term": "pipeline inspection",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#C_IED",
+    "term": "C_IED",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#MALE",
+    "term": "Medium altitude long endurance",
+    "aliases": [
+      "MALE"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#RemotelyOperated",
+    "term": "Remotely operated",
+    "aliases": [
+      "Semiautonomous"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#VLA_LOS",
+    "term": "VLA/LOS",
+    "aliases": [
+      "Very low altitude (LOS)"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#InfrastructureSupport",
+    "term": "infrastructure support",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#HighAltitudeGeologicalMapping",
+    "term": "high-altitude geological mapping of magnetic, radiological, and gravimetric data",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#VTOL_UAVs",
+    "term": "Vertical Take-Off and Landing UAVs",
+    "aliases": [
+      "VTOL UAVs"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#VHA",
+    "term": "VHA",
+    "aliases": [
+      "Very high altitude"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Civil",
+    "term": "civil",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#MAVs",
+    "term": "Micro Air Vehicles",
+    "aliases": [
+      "MAVs"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#CongestedAirspace",
+    "term": "congested airspace",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#MaritimeEnvironment",
+    "term": "maritime",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Light",
+    "term": "Light",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Military",
+    "term": "military",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#CivilianAirspace",
+    "term": "CivilianAirspace",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#RPV",
+    "term": "RPV",
+    "aliases": [
+      "Remotely piloted vehicle"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#CAS",
+    "term": "CAS",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#RestrictedAirspace",
+    "term": "restricted airspace",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#gMAV",
+    "term": "gMAV",
+    "aliases": [
+      "Gasoline Micro Air Vehicle"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#EmergencyResponse",
+    "term": "emergency response",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#RemotelyPiloted",
+    "term": "Remotely piloted",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#MTOWFacet",
+    "term": "MTOW",
+    "aliases": [
+      "mean takeoff weight"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Arctic",
+    "term": "Arctic",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#EarthquakeAffectedAreas",
+    "term": "areas affected by earthquakes",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Normal",
+    "term": "Normal",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Tactical_Automatic_Landing_System",
+    "term": "Tactical Automatic Landing System",
+    "aliases": [
+      "TALS"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#AerialPhotography",
+    "term": "aerial photography",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#MilitaryUnmannedSystem",
+    "term": "Military Unmanned Systems",
+    "aliases": [
+      "military UAV"
+    ]
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#FixedWingUAV",
+    "term": "fixed-wing UAV",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#AttackUAV",
+    "term": "attack UAV",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#IR_Camera",
+    "term": "IR_Camera",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#bungee",
+    "term": "bungee catapult",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#ISR",
+    "term": "ISR",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#CommunicationLink",
+    "term": "Communication link",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#System",
+    "term": "System",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#EnergyAndElectricalFacilityMonitoring",
+    "term": "energy and electrical facility monitoring",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#AirVehicle",
+    "term": "Air vehicle",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#FullyAutonomous",
+    "term": "Fully autonomous",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#EnvironmentalMonitoring",
+    "term": "environmental monitoring",
+    "aliases": []
+  },
+  {
+    "type": "class",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#ISTAR",
+    "term": "ISTAR",
+    "aliases": []
+  },
+  {
+    "type": "individual",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Bourdon_MUAV",
+    "term": "Bourdon MUAV",
+    "aliases": []
+  },
+  {
+    "type": "individual",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Ampersand_UAV",
+    "term": "Ampersand UAV",
+    "aliases": []
+  },
+  {
+    "type": "individual",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#I_Drone",
+    "term": "I-Drone",
+    "aliases": []
+  },
+  {
+    "type": "individual",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Diamond_DA42_Twin_Star",
+    "term": "Diamond DA42 Twin Star",
+    "aliases": []
+  },
+  {
+    "type": "individual",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Puma_AE",
+    "term": "Puma AE",
+    "aliases": [
+      "Puma All Environment"
+    ]
+  },
+  {
+    "type": "individual",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#STOL_OPV",
+    "term": "STOL OPV",
+    "aliases": [
+      "Short Take-Off and Landing OPV"
+    ]
+  },
+  {
+    "type": "individual",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#RQ11B_Raven",
+    "term": "RQ-11B Raven",
+    "aliases": [
+      "Raven"
+    ]
+  },
+  {
+    "type": "individual",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Shadow_200",
+    "term": "RQ-7B Shadow 200",
+    "aliases": [
+      "Shadow 200"
+    ]
+  },
+  {
+    "type": "individual",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Global_Hawk",
+    "term": "Global Hawk",
+    "aliases": []
+  },
+  {
+    "type": "individual",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Tiger",
+    "term": "Tiger",
+    "aliases": [
+      "Tactical Grenade Extended Range"
+    ]
+  },
+  {
+    "type": "individual",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Harop",
+    "term": "Harop",
+    "aliases": []
+  },
+  {
+    "type": "individual",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#BlackWidow",
+    "term": "BlackWidow",
+    "aliases": []
+  },
+  {
+    "type": "individual",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Patroller",
+    "term": "patroller",
+    "aliases": []
+  },
+  {
+    "type": "individual",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Camcopter_S_100",
+    "term": "Camcopter S-100",
+    "aliases": []
+  },
+  {
+    "type": "individual",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Wasp",
+    "term": "Wasp",
+    "aliases": []
+  },
+  {
+    "type": "individual",
+    "uri": "http://example.org/uav-faceted-gt-v15-corrected#Herti",
+    "term": "Herti",
+    "aliases": []
+  }
+]

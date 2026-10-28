@@ -1,0 +1,229 @@
+{
+  "chunking": {
+    "max_words": 220,
+    "overlap_sentences": 1
+  },
+  "experiments": [
+    {
+      "id": "E01_yake_regex_term",
+      "extraction": {
+        "method": "yake",
+        "params": {
+          "top_k": 25
+        }
+      },
+      "noise": {
+        "enabled": true
+      },
+      "alias": {
+        "method": "regex"
+      },
+      "concept": {
+        "method": "cluster",
+        "params": {
+          "representation": "term",
+          "model": "all-MiniLM-L6-v2",
+          "n_clusters": 8
+        }
+      },
+      "typing": {
+        "enabled": true,
+        "params": {
+          "model": "llama3.1:8b",
+          "allow_fallback": true
+        }
+      }
+    },
+    {
+      "id": "E02_tfidf_regex_context",
+      "extraction": {
+        "method": "tfidf",
+        "params": {
+          "top_k": 25
+        }
+      },
+      "noise": {
+        "enabled": true
+      },
+      "alias": {
+        "method": "regex"
+      },
+      "concept": {
+        "method": "nmf",
+        "params": {
+          "representation": "term_context",
+          "n_factors": 8
+        }
+      },
+      "typing": {
+        "enabled": true,
+        "params": {
+          "allow_fallback": true
+        }
+      }
+    },
+    {
+      "id": "E03_nounphrases_textrank_style",
+      "extraction": {
+        "method": "noun_phrases",
+        "params": {
+          "top_k": 25
+        }
+      },
+      "noise": {
+        "enabled": true
+      },
+      "alias": {
+        "method": "regex"
+      },
+      "concept": {
+        "method": "cluster",
+        "params": {
+          "representation": "term_context",
+          "n_clusters": 8
+        }
+      },
+      "typing": {
+        "enabled": true,
+        "params": {
+          "allow_fallback": true
+        }
+      }
+    },
+    {
+      "id": "E04_textrank_cosine_minilm",
+      "extraction": {
+        "method": "textrank",
+        "params": {
+          "top_k": 25
+        }
+      },
+      "noise": {
+        "enabled": true
+      },
+      "alias": {
+        "method": "cosine",
+        "params": {
+          "representation": "term",
+          "model": "all-MiniLM-L6-v2",
+          "threshold": 0.7
+        }
+      },
+      "concept": {
+        "method": "cluster",
+        "params": {
+          "representation": "term_context_alias",
+          "model": "all-MiniLM-L6-v2",
+          "n_clusters": 8
+        }
+      },
+      "typing": {
+        "enabled": true,
+        "params": {
+          "allow_fallback": true
+        }
+      }
+    },
+    {
+      "id": "E05_keybert_minilm_cosine",
+      "extraction": {
+        "method": "keybert",
+        "params": {
+          "top_k": 25,
+          "model": "all-MiniLM-L6-v2"
+        }
+      },
+      "noise": {
+        "enabled": true
+      },
+      "alias": {
+        "method": "cosine",
+        "params": {
+          "representation": "term_context",
+          "model": "all-MiniLM-L6-v2",
+          "threshold": 0.7
+        }
+      },
+      "concept": {
+        "method": "cluster",
+        "params": {
+          "representation": "term_context_alias",
+          "model": "all-MiniLM-L6-v2",
+          "n_clusters": 8
+        }
+      },
+      "typing": {
+        "enabled": true,
+        "params": {
+          "allow_fallback": true
+        }
+      }
+    },
+    {
+      "id": "E06_keybert_mpnet_cosine",
+      "extraction": {
+        "method": "keybert",
+        "params": {
+          "top_k": 25,
+          "model": "all-mpnet-base-v2"
+        }
+      },
+      "noise": {
+        "enabled": true
+      },
+      "alias": {
+        "method": "cosine",
+        "params": {
+          "representation": "term_context",
+          "model": "all-mpnet-base-v2",
+          "threshold": 0.7
+        }
+      },
+      "concept": {
+        "method": "cluster",
+        "params": {
+          "representation": "term_context_alias",
+          "model": "all-mpnet-base-v2",
+          "n_clusters": 8
+        }
+      },
+      "typing": {
+        "enabled": true,
+        "params": {
+          "allow_fallback": true
+        }
+      }
+    },
+    {
+      "id": "E07_ollama_nmf",
+      "extraction": {
+        "method": "ollama_extract",
+        "params": {
+          "top_k": 25,
+          "model": "llama3.1:8b",
+          "allow_fallback": true
+        }
+      },
+      "noise": {
+        "enabled": true
+      },
+      "alias": {
+        "method": "regex"
+      },
+      "concept": {
+        "method": "nmf",
+        "params": {
+          "representation": "term_context_alias",
+          "n_factors": 8
+        }
+      },
+      "typing": {
+        "enabled": true,
+        "params": {
+          "model": "llama3.1:8b",
+          "allow_fallback": true
+        }
+      }
+    }
+  ]
+}

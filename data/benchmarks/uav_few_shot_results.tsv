@@ -1,0 +1,557 @@
+1	uav	domain
+2	unmanned aerial vehicle	unknown
+3	mtow	parameter
+4	mean takeoff weight	unknown
+5	gir	unknown
+6	ground impact risk	unknown
+7	ac 23 1309	unknown
+8	far part 23 aircraft	unknown
+9	class i	unknown
+10	class ii	unknown
+11	class iii	unknown
+12	micro	parameter
+13	mini	environment
+14	small	parameter
+15	large	environment
+16	ultralight	unknown
+17	easa	unknown
+18	european aviation safety agency	unknown
+19	jaa/eurocontrol initiative on uavs	unknown
+20	joint jaa/eurocontrol initiative on uavs	unknown
+21	range safety group	unknown
+22	range commanders council	unknown
+23	haddon and whittaker 2002	unknown
+24	dalamagkidis et al 2012	unknown
+25	weibel and hansman 2004	unknown
+26	zeitlin 2009	unknown
+27	table 5 1	system
+28	table 5 2	unknown
+29	table 5 3	unknown
+30	table 5 4	unknown
+31	very low altitude vla/los	unknown
+32	class g	environment
+33	very low altitude vla/blos	unknown
+34	10	unknown
+35	250	unknown
+36	20/25/30/150	unknown
+37	150/250/300	unknown
+38	tactical	environment
+39	close range cr	unknown
+40	25-150	unknown
+41	10-30	unknown
+42	3 000	unknown
+43	2-4	unknown
+44	short range sr	unknown
+45	50-250	unknown
+46	30-70	unknown
+47	3-6	unknown
+48	medium range mr	unknown
+49	150-500	unknown
+50	70-200	unknown
+51	5 000	parameter
+52	6-10	unknown
+53	mr endurance mre	unknown
+54	500-1 500	unknown
+55	500	unknown
+56	8 000	unknown
+57	10-18	unknown
+58	low altitude deep penetration ladp	unknown
+59	250-2 500	unknown
+60	50-9 000	unknown
+61	5-1	unknown
+62	low altitude long endurance lale	unknown
+63	15-25	unknown
+64	24	parameter
+65	medium altitude long endurance male	unknown
+66	1 000-1 500	unknown
+67	24-48	unknown
+68	high altitude long endurance hale	unknown
+69	2 500-5 000	unknown
+70	2 000	unknown
+71	20 000	unknown
+72	stratospheric strato	unknown
+73	2 500	unknown
+74	48	unknown
+75	exo-stratospheric exo	environment
+76	tbd	unknown
+77	30 500	unknown
+78	unmanned combat av ucav	unknown
+79	1 000	unknown
+80	1 500	unknown
+81	12 000	unknown
+82	lethal let	unknown
+83	300	unknown
+84	4 000	unknown
+85	3-4	unknown
+86	decoys dec	unknown
+87	150-250	unknown
+88	0-500	unknown
+89	50-5 000	unknown
+90	medium altitude ma	unknown
+91	class a through e airspace	environment
+92	very high altitude vha	unknown
+93	class e airspace above fl600	environment
+94	maximum energy	unknown
+95	uav association	unknown
+96	caa	unknown
+97	pilot license	system
+98	type rating	capability
+99	instrument rating	capability
+100	tgi	unknown
+101	minimum time between ground impact accidents	unknown
+102	light/ultralight category	unknown
+103	normal	unknown
+104	vla/los	unknown
+105	very low altitude line-of-sight	unknown
+106	vla/blos	environment
+107	very low altitude beyond line-of-sight	unknown
+108	ma	system
+109	medium-altitude	unknown
+110	ma/a	unknown
+111	medium-altitude a	unknown
+112	vha	unknown
+113	very high altitude	unknown
+114	s &a	unknown
+115	safety and security	system
+116	transponder	unknown
+117	2-way atc communication	unknown
+118	acl	unknown
+119	autonomous control levels	unknown
+120	table 5 5	unknown
+121	protti and barzan 2007	unknown
+122	clough 2002a	unknown
+123	rpas	unknown
+124	remotely piloted aircraft system	unknown
+125	gcs	unknown
+126	ground control station	unknown
+127	hale	environment
+128	high altitude long endurance	unknown
+129	male	unknown
+130	medium altitude long endurance	unknown
+131	very low altitude beyond line of sight	unknown
+132	medium altitude above ground level	unknown
+133	alfus	unknown
+134	autonomy levels for unmanned systems	unknown
+135	wg	unknown
+136	working group	domain
+137	los	environment
+138	line of sight	unknown
+139	ua	domain
+140	operational	unknown
+141	strategic	unknown
+142	cat i	unknown
+143	domestic use	mission
+144	table 7	system
+145	table 8	unknown
+146	table 9	system
+147	table 10	system
+148	jcguav	unknown
+149	joint civil government unmanned aerial vehicle	unknown
+150	maximum takeoff weight	unknown
+151	the joint air force competence centre	unknown
+152	juav coe	unknown
+153	joint unmanned aerial vehicle coordination element	unknown
+154	u s department of defense office of the secretary of defense	unknown
+155	isr	unknown
+156	hempe	unknown
+157	strike combat	system
+158	luna	system
+159	hermes 90	unknown
+160	scan eagle	unknown
+161	skylark	unknown
+162	raven	system
+163	dh3	unknown
+164	aladin	system
+165	strix	unknown
+166	black widow	unknown
+167	sperwer	unknown
+168	iview 250	unknown
+169	hermes 450	unknown
+170	aerostar	system
+171	ranger	domain
+172	predator b	unknown
+173	predator a	unknown
+174	heron	system
+175	heron tp	unknown
+176	hermes 900	unknown
+177	global hawk	unknown
+178	nato uav classification guide	unknown
+179	jcguav meeting	domain
+180	joint air force competence centre	unknown
+181	public	domain
+182	state	unknown
+183	civil	domain
+184	class e	unknown
+185	class d	unknown
+186	far parts 91	system
+187	far part 101	unknown
+188	far part 103	domain
+189	ac 91-57	system
+190	cat i - r/c model aircraft	unknown
+191	cat ii - nonstandard aircraft	unknown
+192	cat iii - certified aircraft	unknown
+193	kias	parameter
+194	uas	domain
+195	unmanned aircraft system	unknown
+196	intelligence surveillance and reconnaissance	unknown
+197	very low altitude/ beyond line of sight	unknown
+198	medium altitude/altitude	unknown
+199	rq-11b raven	system
+200	camcopter s-100	unknown
+201	far parts 91 101 and 103	part
+202	joint unmanned aerial vehicle cooperative experimentation	unknown
+203	faa regulation	unknown
+204	class e g and non-joint-use d	unknown
+205	knots indicated airspeed	unknown
+206	far part 91	system
+207	all	domain
+208	none	unknown
+209	domestic use uav levels	domain
+210	a concept for european regulations for civil unmanned aerial vehicles uav	unknown
+211	platform innovations and system integration for unmanned air land and sea vehicles avt-sci joint symposium	system
+212	common risk criteria standards for national test ranges supplement	capability
+213	strategic concept of employment for unmanned aircraft systems in nato	unknown
+214	u s department of defense	unknown
+215	office of the secretary of defense	domain
+216	unmanned systems roadmap 2007-2032	unknown
+217	p van blyenburgh	system
+218	uav systems global review	unknown
+219	r e weibel	unknown
+220	r j hansman	unknown
+221	safety considerations for operation of different classes of uavs in the nas	system
+222	a zeitlin	unknown
+223	uas s&a standards challenges and progress	unknown
+224	uvs international	unknown
+225	uas yearbook 2009/2010	unknown
+226	european remotely piloted aircraft systems	unknown
+227	remotely piloted aircraft systems	unknown
+228	ersg	unknown
+229	european commission	unknown
+230	roadmap for the integration of civil remotely piloted aircraft systems into the european aviation system	mission
+231	u s federal aviation administration	unknown
+232	faa	unknown
+233	national airspace system	system
+234	nas	system
+235	unmanned aircraft systems	system
+236	uas aviation rulemaking committee	unknown
+237	arc	domain
+238	faa modernization and reform act of 2012	unknown
+239	pub l 112-95	system
+240	international civil aviation organization	unknown
+241	icao	unknown
+242	united nations	unknown
+243	un	unknown
+244	safe and orderly development of international civil aviation	unknown
+245	standards for aviation safety	unknown
+246	security efficiency and regularity	unknown
+247	aviation environmental protection	unknown
+248	domino effect	unknown
+249	rpa	domain
+250	remotely piloted aircraft	unknown
+251	rpv	part
+252	remotely piloted vehicle	system
+253	20-150 kg	parameter
+254	2 kg	unknown
+255	very low altitude blos	unknown
+256	federal aviation administration	unknown
+257	search and rescue	unknown
+258	coast guard support	unknown
+259	wildfire monitoring	mission
+260	traffic control tasks	capability
+261	payload	system
+262	communication link	unknown
+263	launch and retrieval system	unknown
+264	eo_camera	unknown
+265	ir_camera	unknown
+266	muav	unknown
+267	micro air vehicle	system
+268	mav	unknown
+269	mini uav	unknown
+270	line-of-sight	unknown
+271	vtol uavs	unknown
+272	vertical take-off and landing uavs	unknown
+273	tuav	capability
+274	tactical uav	system
+275	suas	unknown
+276	small uas	unknown
+277	small unmanned aircraft system	unknown
+278	medium-altitude long-endurance	unknown
+279	high-altitude long-endurance	unknown
+280	blos	unknown
+281	beyond-line-of-sight	unknown
+282	c-band	unknown
+283	ku-band	unknown
+284	eo/ir	unknown
+285	electro-optical/infrared	unknown
+286	lta	unknown
+287	lighter-than-air	unknown
+288	mq-9 reaper	unknown
+289	heron 1 uav	system
+290	ucavs	unknown
+291	unmanned combat aerial vehicles	unknown
+292	istar	mission
+293	intelligence surveillance target acquisition and reconnaissance	unknown
+294	sead	unknown
+295	suppression of enemy air defenses	unknown
+296	vlo	parameter
+297	very low-observable	unknown
+298	lo	unknown
+299	low-observable	unknown
+300	rcs	unknown
+301	radar cross section	unknown
+302	ir	unknown
+303	infrared	parameter
+304	rf	parameter
+305	radio frequency	unknown
+306	miniature air vehicle	unknown
+307	harop	unknown
+308	tactical grenade extended range tiger	unknown
+309	mbda	unknown
+310	23 kg	unknown
+311	5 kg	unknown
+312	uas coe	unknown
+313	u s army unmanned aircraft systems center of excellence	unknown
+314	miniature unmanned aerial vehicle	unknown
+315	u s army roadmap for uas 2010-2035	unknown
+316	9 kg	unknown
+317	18 kg	parameter
+318	5 times zoom eo camera	unknown
+319	ir camera	unknown
+320	laser rangefinder	unknown
+321	unmanned aerial system	unknown
+322	uastb	unknown
+323	uas training battalion	unknown
+324	fort huachuca	system
+325	fort benning	unknown
+326	r&t	unknown
+327	research and development	unknown
+328	suas pip	unknown
+329	suas product improvement program	unknown
+330	c-ied	unknown
+331	counter-improvised explosive device	unknown
+332	cbrn	unknown
+333	chemical biological radiological nuclear	unknown
+334	ugvs	part
+335	unmanned ground vehicles	unknown
+336	ugs	unknown
+337	unmanned ground systems	parameter
+338	micro unmanned air vehicle	unknown
+339	gmav	system
+340	gasoline micro air vehicle	unknown
+341	nano-uav	unknown
+342	tactical mini uav	part
+343	tacmav	system
+344	nighthawk	unknown
+345	wasp	system
+346	wasp ii	system
+347	wasp iii	system
+348	puma ae	unknown
+349	all environment capable variant	unknown
+350	aecv	system
+351	usaf special operations command	unknown
+352	afsoc	unknown
+353	batmav	unknown
+354	battlefield air targeting micro air vehicle	unknown
+355	usmc	unknown
+356	united states marine corps	unknown
+357	ussocom	unknown
+358	u s special operations command	unknown
+359	t-hawk	system
+360	tarantula-hawk	unknown
+361	improvised explosive device countermeasures	unknown
+362	eod	unknown
+363	explosive ordnance disposal	unknown
+364	gmav block i	system
+365	gmav block ii/iii	unknown
+366	aai rq-7b shadow 200 tuav	system
+367	shadow 200	unknown
+368	tals	system
+369	tactical automatic landing system	system
+370	rvt	unknown
+371	remote video terminal	unknown
+372	avt	system
+373	air vehicle transporter	unknown
+374	pioneer	unknown
+375	uel ar741 wankel engine	unknown
+376	8 lb	parameter
+377	intelligence and reconnaissance	unknown
+378	emergency response	mission
+379	infrastructure support	domain
+380	aerial photography	unknown
+381	forest protection	unknown
+382	environmental monitoring	unknown
+383	energy and electrical facility monitoring	unknown
+384	pipeline inspection	unknown
+385	crisis management operations	unknown
+386	earth observation	mission
+387	surveillance	unknown
+388	smes	unknown
+389	small and medium enterprises	system
+390	low-cost systems	unknown
+391	bae systems herti	unknown
+392	j6 fregata motor glider	system
+393	mt-03 autogyro	unknown
+394	ampersand uav	unknown
+395	patroller	unknown
+396	aurora flight services	system
+397	irkut	system
+398	aeronautics defense systems	system
+399	diamond da42 twin star	domain
+400	opv	unknown
+401	optionally piloted vehicle	unknown
+402	stol opv	unknown
+403	short take-off and landing optionally piloted vehicle	unknown
+404	xenon gyroplane	unknown
+405	vtol	part
+406	eurocopter ec145	unknown
+407	lrad	part
+408	long range acoustic device	unknown
+409	verney-carron flash-ball	parameter
+410	i-drone	unknown
+411	quadrotor	unknown
+412	schiebel	unknown
+413	france	unknown
+414	austria	domain
+415	smp technologies	unknown
+416	tecknisolar seni	system
+417	bourdon muav	unknown
+418	law enforcement	unknown
+419	ground and border surveillance	unknown
+420	funding	parameter
+421	leased fee-for-service arrangement	domain
+422	costs down	unknown
+423	financially viable	unknown
+424	police air support tasks	unknown
+425	helicopter	unknown
+426	versatility	unknown
+427	endurance time	unknown
+428	operating costs	unknown
+429	logistics footprint	unknown
+430	outsourcing	unknown
+431	private contractor	unknown
+432	uav services	unknown
+433	cash-strapped european militaries	domain
+434	law enforcement tasks	mission
+435	surveillance role	unknown
+436	nonlethal weapons	capability
+437	risk to police officers	unknown
+438	france s tecknisolar seni	unknown
+439	44 mm rubber balls	part
+440	plastic rounds	unknown
+441	tear gas	unknown
+442	dye-ball markers	domain
+443	5 kg laser stun gun	unknown
+444	i-drone quadrotor uav	system
+445	austria s schiebel	unknown
+446	camcopter s-100 vtol uav	unknown
+447	manned platforms	unknown
+448	civilian world	unknown
+449	uav applications	unknown
+450	arctic	unknown
+451	earthquakes	environment
+452	marine mammals	unknown
+453	scientific research	unknown
+454	weather/atmospheric data collection	environment
+455	oceanographic data collection	unknown
+456	agricultural monitoring	domain
+457	high-altitude geological mapping	unknown
+458	magnetic	unknown
+459	radiological	unknown
+460	gravimetric data	parameter
+461	international market	unknown
+462	uas or rpa or rpas	unknown
+463	procurement costs	unknown
+464	low risk to human life	unknown
+465	military use	unknown
+466	europe	unknown
+467	usa	unknown
+468	israel	unknown
+469	1970s	unknown
+470	flight control systems	unknown
+471	sensor technology	system
+472	endurance	parameter
+473	weather conditions	unknown
+474	restricted airspace	unknown
+475	civilian air traffic	environment
+476	midair collision	capability
+477	harmonization rules	unknown
+478	controlled airspace	unknown
+479	regional efforts	domain
+480	air regulations	unknown
+481	s&a	unknown
+482	sense and avoid	unknown
+483	laser phalanx	unknown
+484	naval close-in weapon system	unknown
+485	raytheon	unknown
+486	london satellite exchange	system
+487	lse	unknown
+488	ku-band links	parameter
+489	european space agency	unknown
+490	esa	unknown
+491	artes	system
+492	advanced research on telecommunication satellite systems	unknown
+493	satcom	system
+494	sigat	unknown
+495	missile technology control regime	unknown
+496	mtcr	unknown
+497	predator xp	unknown
+498	ga-asi	unknown
+499	general atomics aeronautical systems inc	unknown
+500	border patrol	unknown
+501	forest fire monitoring	unknown
+502	rescue operations	unknown
+503	traffic monitoring	mission
+504	police surveillance	unknown
+505	association for unmanned systems international	system
+506	auvsi	unknown
+507	uav oems	unknown
+508	uas applications	capability
+509	commercial market	domain
+510	civilian uav market segment	domain
+511	faa s line-of-sight restriction	unknown
+512	certification requirements	unknown
+513	relatively low-cost	parameter
+514	nearly expendable uavs	unknown
+515	military operations	unknown
+516	civilian operations	domain
+517	lower procurement costs	unknown
+518	small logistics footprint	unknown
+519	aviation sector	unknown
+520	scores of new companies	domain
+521	reliability	unknown
+522	safety	unknown
+523	utility	unknown
+524	industry growth	unknown
+525	privacy issues	unknown
+526	legal issues	unknown
+527	ethical issues	unknown
+528	army unmanned aircraft system operations	unknown
+529	fm-3-04-155	system
+530	fy2009-2034 unmanned systems integrated roadmap	unknown
+531	office of secretary of defense	domain
+532	joint concept of operations for unmanned aircraft systems	unknown
+533	joint requirements oversight council	unknown
+534	jdsaisr	domain
+535	initial capabilities document	capability
+536	icd	capability
+537	operational environment 2009-2025	environment
+538	tradoc	domain
+539	sense and respond logistics co-evolution of an adaptive enterprise capability	unknown
+540	dod office of force transformation	system
+541	sense & respond logistics technology roadmap	system
+542	office of the deputy under secretary of defense	domain
+543	the u s army unmanned aircraft systems strategic vision 2007	unknown
+544	unmanned futures branch	unknown
+545	crd	unknown
+546	the u s uas future s white paper	unknown
+547	unmanned aircraft system airspace integration plan	unknown
+548	draft version 1 7	domain
+549	unmanned ground systems roadmap	unknown
+550	robotic systems joint project office	unknown
+551	addendum	unknown
+552	july 2010	unknown
+553	unmanned systems integrated roadmap	unknown
+554	fy2011-2036	unknown
+555	dod reference number 11-5-3613	unknown
+556	u s army roadmap for uas	unknown
+557	2010-2035	parameter

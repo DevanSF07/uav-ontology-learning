@@ -1,0 +1,16 @@
+{
+  "input_files": [
+    "data/interim/cleaned_corpus.txt"
+  ],
+  "output_dir": "ontology_experiment_framework/stage_outputs/sae_trial_simple",
+  "embedding_model": "models/all-mpnet-base-v2",
+  "feature_dim": 256,
+  "top_k": 32,
+  "epochs": 15,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "spacy_model": "en_core_web_sm",
+  "device": "auto",
+  "seed": 42,
+  "top_terms_per_feature": 10
+}

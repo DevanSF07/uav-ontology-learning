@@ -1,0 +1,557 @@
+1	uav	system
+2	unmanned aerial vehicle	system
+3	mtow	system
+4	mean takeoff weight	parameter
+5	gir	domain
+6	ground impact risk	parameter
+7	ac 23 1309	domain
+8	far part 23 aircraft	domain
+9	class i	parameter
+10	class ii	parameter
+11	class iii	parameter
+12	micro	parameter
+13	mini	parameter
+14	small	system
+15	large	system
+16	ultralight	parameter
+17	easa	domain
+18	european aviation safety agency	domain
+19	jaa/eurocontrol initiative on uavs	system
+20	joint jaa/eurocontrol initiative on uavs	system
+21	range safety group	parameter
+22	range commanders council	parameter
+23	haddon and whittaker 2002	domain
+24	dalamagkidis et al 2012	system
+25	weibel and hansman 2004	domain
+26	zeitlin 2009	domain
+27	table 5 1	system
+28	table 5 2	parameter
+29	table 5 3	parameter
+30	table 5 4	parameter
+31	very low altitude vla/los	domain
+32	class g	capability
+33	very low altitude vla/blos	domain
+34	10	parameter
+35	250	parameter
+36	20/25/30/150	parameter
+37	150/250/300	parameter
+38	tactical	parameter
+39	close range cr	parameter
+40	25-150	parameter
+41	10-30	parameter
+42	3 000	parameter
+43	2-4	parameter
+44	short range sr	parameter
+45	50-250	parameter
+46	30-70	parameter
+47	3-6	parameter
+48	medium range mr	parameter
+49	150-500	parameter
+50	70-200	parameter
+51	5 000	parameter
+52	6-10	parameter
+53	mr endurance mre	system
+54	500-1 500	parameter
+55	500	parameter
+56	8 000	parameter
+57	10-18	parameter
+58	low altitude deep penetration ladp	parameter
+59	250-2 500	parameter
+60	50-9 000	parameter
+61	5-1	parameter
+62	low altitude long endurance lale	parameter
+63	15-25	parameter
+64	24	parameter
+65	medium altitude long endurance male	domain
+66	1 000-1 500	parameter
+67	24-48	parameter
+68	high altitude long endurance hale	parameter
+69	2 500-5 000	parameter
+70	2 000	parameter
+71	20 000	parameter
+72	stratospheric strato	system
+73	2 500	parameter
+74	48	parameter
+75	exo-stratospheric exo	parameter
+76	tbd	parameter
+77	30 500	parameter
+78	unmanned combat av ucav	parameter
+79	1 000	parameter
+80	1 500	parameter
+81	12 000	parameter
+82	lethal let	parameter
+83	300	parameter
+84	4 000	parameter
+85	3-4	parameter
+86	decoys dec	parameter
+87	150-250	parameter
+88	0-500	parameter
+89	50-5 000	parameter
+90	medium altitude ma	domain
+91	class a through e airspace	domain
+92	very high altitude vha	domain
+93	class e airspace above fl600	domain
+94	maximum energy	parameter
+95	uav association	parameter
+96	caa	parameter
+97	pilot license	parameter
+98	type rating	parameter
+99	instrument rating	parameter
+100	tgi	mission
+101	minimum time between ground impact accidents	domain
+102	light/ultralight category	parameter
+103	normal	parameter
+104	vla/los	capability
+105	very low altitude line-of-sight	domain
+106	vla/blos	capability
+107	very low altitude beyond line-of-sight	domain
+108	ma	capability
+109	medium-altitude	domain
+110	ma/a	capability
+111	medium-altitude a	domain
+112	vha	unknown
+113	very high altitude	domain
+114	s &a	capability
+115	safety and security	domain
+116	transponder	capability
+117	2-way atc communication	capability
+118	acl	capability
+119	autonomous control levels	capability
+120	table 5 5	capability
+121	protti and barzan 2007	capability
+122	clough 2002a	capability
+123	rpas	system
+124	remotely piloted aircraft system	system
+125	gcs	system
+126	ground control station	system
+127	hale	parameter
+128	high altitude long endurance	parameter
+129	male	parameter
+130	medium altitude long endurance	parameter
+131	very low altitude beyond line of sight	domain
+132	medium altitude above ground level	domain
+133	alfus	capability
+134	autonomy levels for unmanned systems	capability
+135	wg	system
+136	working group	mission
+137	los	parameter
+138	line of sight	capability
+139	ua	system
+140	operational	system
+141	strategic	parameter
+142	cat i	unknown
+143	domestic use	system
+144	table 7	capability
+145	table 8	parameter
+146	table 9	domain
+147	table 10	system
+148	jcguav	domain
+149	joint civil government unmanned aerial vehicle	domain
+150	maximum takeoff weight	parameter
+151	the joint air force competence centre	domain
+152	juav coe	domain
+153	joint unmanned aerial vehicle coordination element	system
+154	u s department of defense office of the secretary of defense	domain
+155	isr	system
+156	hempe	domain
+157	strike combat	parameter
+158	luna	parameter
+159	hermes 90	parameter
+160	scan eagle	parameter
+161	skylark	parameter
+162	raven	system
+163	dh3	parameter
+164	aladin	parameter
+165	strix	parameter
+166	black widow	parameter
+167	sperwer	parameter
+168	iview 250	parameter
+169	hermes 450	parameter
+170	aerostar	parameter
+171	ranger	parameter
+172	predator b	parameter
+173	predator a	parameter
+174	heron	parameter
+175	heron tp	parameter
+176	hermes 900	parameter
+177	global hawk	parameter
+178	nato uav classification guide	parameter
+179	jcguav meeting	domain
+180	joint air force competence centre	domain
+181	public	system
+182	state	domain
+183	civil	system
+184	class e	unknown
+185	class d	system
+186	far parts 91	unknown
+187	far part 101	system
+188	far part 103	parameter
+189	ac 91-57	domain
+190	cat i - r/c model aircraft	parameter
+191	cat ii - nonstandard aircraft	unknown
+192	cat iii - certified aircraft	parameter
+193	kias	unknown
+194	uas	system
+195	unmanned aircraft system	system
+196	intelligence surveillance and reconnaissance	mission
+197	very low altitude/ beyond line of sight	domain
+198	medium altitude/altitude	parameter
+199	rq-11b raven	system
+200	camcopter s-100	system
+201	far parts 91 101 and 103	system
+202	joint unmanned aerial vehicle cooperative experimentation	mission
+203	faa regulation	domain
+204	class e g and non-joint-use d	domain
+205	knots indicated airspeed	parameter
+206	far part 91	unknown
+207	all	system
+208	none	unknown
+209	domestic use uav levels	system
+210	a concept for european regulations for civil unmanned aerial vehicles uav	system
+211	platform innovations and system integration for unmanned air land and sea vehicles avt-sci joint symposium	system
+212	common risk criteria standards for national test ranges supplement	domain
+213	strategic concept of employment for unmanned aircraft systems in nato	system
+214	u s department of defense	domain
+215	office of the secretary of defense	system
+216	unmanned systems roadmap 2007-2032	system
+217	p van blyenburgh	system
+218	uav systems global review	system
+219	r e weibel	system
+220	r j hansman	domain
+221	safety considerations for operation of different classes of uavs in the nas	domain
+222	a zeitlin	system
+223	uas s&a standards challenges and progress	system
+224	uvs international	domain
+225	uas yearbook 2009/2010	system
+226	european remotely piloted aircraft systems	system
+227	remotely piloted aircraft systems	system
+228	ersg	system
+229	european commission	domain
+230	roadmap for the integration of civil remotely piloted aircraft systems into the european aviation system	system
+231	u s federal aviation administration	domain
+232	faa	domain
+233	national airspace system	domain
+234	nas	domain
+235	unmanned aircraft systems	system
+236	uas aviation rulemaking committee	domain
+237	arc	system
+238	faa modernization and reform act of 2012	domain
+239	pub l 112-95	system
+240	international civil aviation organization	domain
+241	icao	system
+242	united nations	domain
+243	un	domain
+244	safe and orderly development of international civil aviation	domain
+245	standards for aviation safety	system
+246	security efficiency and regularity	domain
+247	aviation environmental protection	domain
+248	domino effect	domain
+249	rpa	system
+250	remotely piloted aircraft	system
+251	rpv	system
+252	remotely piloted vehicle	system
+253	20-150 kg	system
+254	2 kg	parameter
+255	very low altitude blos	domain
+256	federal aviation administration	domain
+257	search and rescue	mission
+258	coast guard support	mission
+259	wildfire monitoring	mission
+260	traffic control tasks	mission
+261	payload	system
+262	communication link	system
+263	launch and retrieval system	system
+264	eo_camera	system
+265	ir_camera	system
+266	muav	system
+267	micro air vehicle	system
+268	mav	system
+269	mini uav	system
+270	line-of-sight	domain
+271	vtol uavs	system
+272	vertical take-off and landing uavs	domain
+273	tuav	system
+274	tactical uav	system
+275	suas	system
+276	small uas	system
+277	small unmanned aircraft system	system
+278	medium-altitude long-endurance	domain
+279	high-altitude long-endurance	domain
+280	blos	capability
+281	beyond-line-of-sight	domain
+282	c-band	mission
+283	ku-band	domain
+284	eo/ir	part
+285	electro-optical/infrared	system
+286	lta	system
+287	lighter-than-air	system
+288	mq-9 reaper	system
+289	heron 1 uav	system
+290	ucavs	system
+291	unmanned combat aerial vehicles	system
+292	istar	system
+293	intelligence surveillance target acquisition and reconnaissance	mission
+294	sead	domain
+295	suppression of enemy air defenses	domain
+296	vlo	system
+297	very low-observable	system
+298	lo	system
+299	low-observable	system
+300	rcs	system
+301	radar cross section	system
+302	ir	system
+303	infrared	system
+304	rf	system
+305	radio frequency	system
+306	miniature air vehicle	system
+307	harop	domain
+308	tactical grenade extended range tiger	domain
+309	mbda	domain
+310	23 kg	system
+311	5 kg	parameter
+312	uas coe	system
+313	u s army unmanned aircraft systems center of excellence	system
+314	miniature unmanned aerial vehicle	system
+315	u s army roadmap for uas 2010-2035	system
+316	9 kg	system
+317	18 kg	system
+318	5 times zoom eo camera	system
+319	ir camera	capability
+320	laser rangefinder	capability
+321	unmanned aerial system	system
+322	uastb	domain
+323	uas training battalion	domain
+324	fort huachuca	domain
+325	fort benning	domain
+326	r&t	system
+327	research and development	domain
+328	suas pip	system
+329	suas product improvement program	system
+330	c-ied	system
+331	counter-improvised explosive device	domain
+332	cbrn	system
+333	chemical biological radiological nuclear	mission
+334	ugvs	system
+335	unmanned ground vehicles	system
+336	ugs	system
+337	unmanned ground systems	system
+338	micro unmanned air vehicle	system
+339	gmav	system
+340	gasoline micro air vehicle	system
+341	nano-uav	system
+342	tactical mini uav	system
+343	tacmav	system
+344	nighthawk	system
+345	wasp	system
+346	wasp ii	system
+347	wasp iii	domain
+348	puma ae	system
+349	all environment capable variant	system
+350	aecv	system
+351	usaf special operations command	mission
+352	afsoc	system
+353	batmav	system
+354	battlefield air targeting micro air vehicle	system
+355	usmc	domain
+356	united states marine corps	domain
+357	ussocom	domain
+358	u s special operations command	mission
+359	t-hawk	system
+360	tarantula-hawk	system
+361	improvised explosive device countermeasures	domain
+362	eod	system
+363	explosive ordnance disposal	domain
+364	gmav block i	system
+365	gmav block ii/iii	system
+366	aai rq-7b shadow 200 tuav	domain
+367	shadow 200	system
+368	tals	system
+369	tactical automatic landing system	system
+370	rvt	system
+371	remote video terminal	mission
+372	avt	system
+373	air vehicle transporter	system
+374	pioneer	system
+375	uel ar741 wankel engine	system
+376	8 lb	system
+377	intelligence and reconnaissance	mission
+378	emergency response	mission
+379	infrastructure support	mission
+380	aerial photography	mission
+381	forest protection	mission
+382	environmental monitoring	mission
+383	energy and electrical facility monitoring	mission
+384	pipeline inspection	mission
+385	crisis management operations	mission
+386	earth observation	mission
+387	surveillance	system
+388	smes	domain
+389	small and medium enterprises	domain
+390	low-cost systems	system
+391	bae systems herti	system
+392	j6 fregata motor glider	system
+393	mt-03 autogyro	system
+394	ampersand uav	system
+395	patroller	system
+396	aurora flight services	system
+397	irkut	system
+398	aeronautics defense systems	system
+399	diamond da42 twin star	system
+400	opv	system
+401	optionally piloted vehicle	system
+402	stol opv	system
+403	short take-off and landing optionally piloted vehicle	system
+404	xenon gyroplane	system
+405	vtol	system
+406	eurocopter ec145	system
+407	lrad	system
+408	long range acoustic device	system
+409	verney-carron flash-ball	domain
+410	i-drone	system
+411	quadrotor	system
+412	schiebel	system
+413	france	system
+414	austria	system
+415	smp technologies	system
+416	tecknisolar seni	domain
+417	bourdon muav	domain
+418	law enforcement	system
+419	ground and border surveillance	domain
+420	funding	system
+421	leased fee-for-service arrangement	domain
+422	costs down	domain
+423	financially viable	domain
+424	police air support tasks	system
+425	helicopter	system
+426	versatility	system
+427	endurance time	system
+428	operating costs	system
+429	logistics footprint	system
+430	outsourcing	domain
+431	private contractor	domain
+432	uav services	domain
+433	cash-strapped european militaries	domain
+434	law enforcement tasks	domain
+435	surveillance role	system
+436	nonlethal weapons	system
+437	risk to police officers	domain
+438	france s tecknisolar seni	domain
+439	44 mm rubber balls	domain
+440	plastic rounds	domain
+441	tear gas	domain
+442	dye-ball markers	domain
+443	5 kg laser stun gun	system
+444	i-drone quadrotor uav	system
+445	austria s schiebel	system
+446	camcopter s-100 vtol uav	system
+447	manned platforms	system
+448	civilian world	domain
+449	uav applications	domain
+450	arctic	domain
+451	earthquakes	domain
+452	marine mammals	domain
+453	scientific research	mission
+454	weather/atmospheric data collection	domain
+455	oceanographic data collection	domain
+456	agricultural monitoring	domain
+457	high-altitude geological mapping	domain
+458	magnetic	domain
+459	radiological	domain
+460	gravimetric data	domain
+461	international market	domain
+462	uas or rpa or rpas	system
+463	procurement costs	system
+464	low risk to human life	domain
+465	military use	domain
+466	europe	system
+467	usa	system
+468	israel	system
+469	1970s	system
+470	flight control systems	system
+471	sensor technology	system
+472	endurance	parameter
+473	weather conditions	environment
+474	restricted airspace	domain
+475	civilian air traffic	domain
+476	midair collision	system
+477	harmonization rules	domain
+478	controlled airspace	parameter
+479	regional efforts	domain
+480	air regulations	domain
+481	s&a	system
+482	sense and avoid	capability
+483	laser phalanx	system
+484	naval close-in weapon system	system
+485	raytheon	system
+486	london satellite exchange	domain
+487	lse	domain
+488	ku-band links	domain
+489	european space agency	domain
+490	esa	domain
+491	artes	system
+492	advanced research on telecommunication satellite systems	system
+493	satcom	system
+494	sigat	domain
+495	missile technology control regime	domain
+496	mtcr	domain
+497	predator xp	system
+498	ga-asi	system
+499	general atomics aeronautical systems inc	system
+500	border patrol	domain
+501	forest fire monitoring	domain
+502	rescue operations	mission
+503	traffic monitoring	mission
+504	police surveillance	domain
+505	association for unmanned systems international	domain
+506	auvsi	domain
+507	uav oems	domain
+508	uas applications	system
+509	commercial market	domain
+510	civilian uav market segment	domain
+511	faa s line-of-sight restriction	domain
+512	certification requirements	domain
+513	relatively low-cost	domain
+514	nearly expendable uavs	domain
+515	military operations	mission
+516	civilian operations	domain
+517	lower procurement costs	system
+518	small logistics footprint	system
+519	aviation sector	domain
+520	scores of new companies	domain
+521	reliability	system
+522	safety	system
+523	utility	domain
+524	industry growth	domain
+525	privacy issues	domain
+526	legal issues	domain
+527	ethical issues	domain
+528	army unmanned aircraft system operations	system
+529	fm-3-04-155	system
+530	fy2009-2034 unmanned systems integrated roadmap	system
+531	office of secretary of defense	system
+532	joint concept of operations for unmanned aircraft systems	system
+533	joint requirements oversight council	system
+534	jdsaisr	system
+535	initial capabilities document	capability
+536	icd	system
+537	operational environment 2009-2025	system
+538	tradoc	system
+539	sense and respond logistics co-evolution of an adaptive enterprise capability	capability
+540	dod office of force transformation	domain
+541	sense & respond logistics technology roadmap	capability
+542	office of the deputy under secretary of defense	domain
+543	the u s army unmanned aircraft systems strategic vision 2007	system
+544	unmanned futures branch	domain
+545	crd	domain
+546	the u s uas future s white paper	system
+547	unmanned aircraft system airspace integration plan	system
+548	draft version 1 7	system
+549	unmanned ground systems roadmap	system
+550	robotic systems joint project office	system
+551	addendum	system
+552	july 2010	system
+553	unmanned systems integrated roadmap	system
+554	fy2011-2036	system
+555	dod reference number 11-5-3613	system
+556	u s army roadmap for uas	system
+557	2010-2035	domain

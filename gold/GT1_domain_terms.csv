@@ -1,0 +1,406 @@
+term
+unmanned aerial vehicle
+uav
+uavs
+unmanned aircraft
+unmanned aircraft system
+uas
+uav system
+unmanned system
+rpa
+rpas
+rpv
+remotely piloted aircraft
+remotely piloted aircraft system
+remotely piloted vehicle
+pilotless aircraft
+flying machine
+remote control
+onboard control
+offboard control
+man in the loop
+uav classification
+mean takeoff weight
+mtow
+ground impact risk
+kinetic energy
+ground impact accident
+population density
+micro
+mini
+small
+light
+light/ultralight
+normal
+large
+airworthiness certification
+lsa
+far part 23
+far part 25
+far part 103
+close range
+short range
+medium range
+mr endurance
+low altitude deep penetration
+ladp
+low altitude long endurance
+lale
+medium altitude long endurance
+male
+high altitude long endurance
+hale
+stratospheric
+strato
+exo-stratospheric
+exo
+unmanned combat aerial vehicle
+ucav
+lethal
+let
+decoy
+dec
+nato uav classification
+class i uav
+class ii uav
+class iii uav
+tactical uav
+strike combat
+altitude classification
+ownership classification
+autonomy classification
+very low altitude
+vla
+vla/los
+vla/blos
+medium altitude
+ma
+very high altitude
+vha
+class g airspace
+class a airspace
+class e airspace
+fl600
+midair collision risk
+collision avoidance
+line of sight
+los
+beyond line of sight
+blos
+sense and avoid
+s&a
+transponder
+atc communication
+2-way atc communication
+airspace class
+minor deviations
+remarkable deviations
+considerable deviations
+extreme deviations
+planned flight path
+required flight path
+lateral deviations
+autonomous control levels
+acl
+alfus
+autonomy levels for unmanned systems
+remotely piloted
+remotely operated
+semiautonomous
+fully autonomous
+execute preplanned mission
+changeable mission
+fault/event adaptive vehicle
+real-time multi-vehicle coordination
+real-time multi-vehicle cooperation
+battlespace knowledge
+battlespace cognizance
+battlespace swarm cognizance
+waypoint
+operator
+decision making
+human involvement
+aircraft
+ground control station
+ground control stations
+gcs
+communication link
+communication links
+launch and retrieval system
+launch and retrieval systems
+remote pilot station
+remote pilot station(s)
+command and control link
+command and control links
+system elements
+flight control systems
+sensor technology
+data link
+data links
+secure data links
+unsecure data broadcast
+satellite data link
+satellite data links
+loss of data links
+ground data terminal
+ground data terminals
+portable gcs
+remote video terminal
+rvt
+rvts
+air vehicle transporter
+avt
+line-of-sight
+los air-to-ground radio relay
+microwave links
+beyond-line-of-sight
+blos satellite data links
+ku-band
+c-band
+los data links
+satcom
+satellite communications
+satellite bandwidth
+military radio spectrum
+eo/ir sensors
+electro-optical/infrared sensors
+eo camera
+ir camera
+laser rangefinder
+laser pointer/rangefinder
+ground surveillance radar systems
+radar cross section
+rcs
+infrared signature
+ir signature
+radio frequency
+rf
+mini uavs
+muavs
+micro air vehicles
+mavs
+lightweight muavs
+lightweight mavs
+larger uavs
+larger uas
+vertical takeoff and landing uavs
+vtol uavs
+tactical uavs
+tuavs
+small uas
+suas
+male uavs
+hale uavs
+unmanned hale platforms
+solar-powered stratosphere uavs
+lighter-than-air airships
+lta airships
+attack uav
+attack mav
+nano-uavs
+tactical mini uav
+tacmav
+short-range close reconnaissance
+urban environments
+"intelligence, surveillance, and reconnaissance"
+isr
+counter-improvised explosive device
+c-ied
+improvised explosive devices
+ieds
+maritime isr
+isr support
+strategic reconnaissance
+close air support
+cas
+persistent isr
+"intelligence, surveillance, target acquisition, and reconnaissance"
+istar
+suppression of enemy air defenses
+sead
+deep penetration strike
+cargo and supplies delivery
+humanitarian aid operation
+casualty evacuation
+medical evacuation
+target area
+rq-11b raven
+raven
+aerovironment wasp
+wasp
+wasp iii
+puma ae
+puma
+gmav
+gasoline micro air vehicle
+t-hawk
+tarantula-hawk
+nighthawk
+aai rq-7b shadow 200 tuav
+shadow 200
+shadow
+rq-2 pioneer
+mq-9 reaper
+heron 1 uav
+harop
+tactical grenade extended range
+tiger
+bae systems herti
+ampersand uav
+patroller
+predator male uav
+predator xp
+i-drone quadrotor uav
+camcopter s-100 vtol uav
+j6 fregata motor glider
+mt-03 autogyro
+german stemme s15-vt powered glider
+austrian diamond da42 twin star
+short take-off and landing opv
+stol opv
+xenon gyroplane
+eurocopter ec145
+payload
+endurance
+range
+wingspan
+length
+height
+maximum speed
+cruise speed
+maximum altitude
+maximum service ceiling
+twin-boom
+inverted v-tail
+delta-wing
+airframe
+airframe coatings
+airframe materials
+stealth capabilities
+heavy fuel engine
+heavy fuel boxer twin engine
+ducted fan
+hydraulic catapult launcher
+catapult launched
+bungee catapult
+hand-launched
+automatic takeoff and landing
+atol
+tactical automatic landing system
+tals
+lithium polymer batteries
+lithium sulfide batteries
+zinc-air batteries
+solar/electric
+hydrogen-powered hale uavs
+electric-powered
+uel ar741 wankel engine
+38hp engine
+28kw engine
+4.4 hp engine
+3 kw engine
+modular sensor suites
+gimbaled sensor payload
+plug-in optronic payload
+pop
+civilian uav applications
+scientific research
+search and rescue
+emergency response
+traffic control tasks
+infrastructure support
+aerial photography
+forest protection
+wildfire monitoring
+environmental monitoring
+energy facility monitoring
+electrical facility monitoring
+pipeline inspection
+coast guard support
+crisis management operations
+natural disasters
+disaster zones
+survivors
+civilian air cargo
+earth observation
+surveillance
+ground surveillance
+border surveillance
+law enforcement
+police air support
+traffic monitoring
+police surveillance
+rescue operations
+forest fire monitoring
+weather/atmospheric data collection
+oceanographic data collection
+agricultural monitoring
+high-altitude geological mapping
+magnetic data
+radiological data
+gravimetric data
+marine mammals monitoring
+arctic monitoring
+low-cost systems
+civilian applications
+off-the-shelf manned platforms
+optionally piloted vehicle
+opv
+leased fee-for-service arrangement
+outsourcing
+private contractor
+european remotely piloted aircraft systems steering group
+ersg
+european aviation system
+federal aviation administration
+faa
+national airspace system
+nas
+uas aviation rulemaking committee
+arc
+faa modernization and reform act of 2012
+uas research and test site operators
+international civil aviation organization
+icao
+united nations
+un
+european aviation safety agency
+easa
+aviation safety
+aviation security
+aviation efficiency
+aviation regularity
+aviation environmental protection
+airworthiness
+certification
+civilian airspace
+controlled airspace
+congested airspace
+national airspace
+air regulations
+line-of-sight restriction
+certification requirements
+restricted airspace
+civilian air traffic
+midair collision
+general harmonization rules
+hostile jamming
+anti-uav technology
+laser phalanx naval close-in weapon system
+commercial satellite operators
+military satellite systems
+european space agency
+esa
+advanced research on telecommunication satellite systems
+artes
+sigat
+autonomous flight capabilities
+operator guidance
+release weapons
+export and proliferation
+missile technology control regime
+mtcr
+weapons of mass destruction
+export laws
+association for unmanned systems international
+auvsi

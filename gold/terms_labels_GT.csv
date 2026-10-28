@@ -1,0 +1,178 @@
+term,label
+aerial photography,mission
+aerial vehicle,system
+agricultural monitoring,mission
+air vehicle,system
+aircraft,system
+arctic,environment
+areas affected by earthquakes,environment
+atol,capability
+attack uav,system
+automatic takeoff and landing,capability
+autonomous flight,capability
+autonomy,capability
+avionics,part
+bungee catapult,part
+c ied,mission
+capability,capability
+cas,mission
+catapult,part
+civil,domain
+civil uav,system
+civilian airspace,environment
+civilian uav,system
+civilian unmanned systems,system
+class i,system
+class ii,system
+class iii,system
+coast guard support,mission
+communication link,part
+congested airspace,environment
+controlled airspace,environment
+deep penetration strike,mission
+electro optical camera,part
+electro optical sensor,part
+emergency response,mission
+endurance,parameter
+energy and electrical facility monitoring,mission
+environment,environment
+environment facet,environment
+environmental monitoring,mission
+eo camera,part
+eo sensor,part
+fixed wing uav,system
+forest protection,mission
+fully autonomous,system
+g mav,system
+gasoline micro air vehicle,system
+gcs,part
+ground control station,part
+hale,capability
+hale uavs,system
+hand,part
+"high altitude geological mapping of magnetic, radiological, and gravimetric data",environment
+high altitude long endurance,capability
+hydraulic catapult launcher,part
+infrared camera,part
+infrared sensor,part
+infrastructure support,mission
+ir camera,part
+ir sensor,part
+isr,mission
+istar,mission
+large,system
+large uavs,system
+launch and retrieval system,part
+light,system
+lighter than air platforms,system
+lightweight uavs,system
+long range,parameter
+long range acoustic device,part
+long range acoustic device loudspeaker,part
+lr,parameter
+lrad,part
+lta,system
+ma,system
+ma vs,system
+ma/a,system
+male,capability
+male uavs,system
+maritime,environment
+mean takeoff weight,parameter
+medium altitude,environment
+medium altitude in class a,system
+medium altitude long endurance,capability
+medium altitude long endurance unmanned aircraft,system
+micro,system
+micro air vehicles,system
+micro uavs,system
+military,domain
+military uav,system
+military unmanned systems,system
+mini,system
+mini uavs,system
+mission,mission
+monitoring marine mammals,mission
+mtow,parameter
+muavs,system
+nano uav,system
+normal,system
+operational altitude,environment
+operator interface,part
+ownership,system
+payload,part
+pipeline inspection,mission
+public,system
+range,parameter
+remotely operated,capability
+remotely piloted,capability
+remotely piloted aircraft,system
+remotely piloted aircraft system,system
+remotely piloted vehicle,system
+restricted airspace,environment
+rpa,system
+rpas,system
+rpv,system
+s uas,system
+scientific research,mission
+sead,mission
+search and rescue,mission
+semiautonomous,system
+short range,parameter
+short take off and landing opv,system
+small,system
+small uavs,system
+small uas,system
+state,system
+stealth,capability
+stol opv,system
+suas,system
+suppression of enemy air defenses,mission
+system,system
+tactical automatic landing system,part
+tactical uav,system
+tals,part
+traffic control tasks,mission
+tuav,system
+uas,system
+uav,system
+ucav,system
+ug vs,system
+ugs,system
+ultralight,system
+unmanned aerial vehicle,system
+unmanned aircraft system,system
+unmanned combat aerial vehicles,system
+unmanned ground systems,system
+unmanned ground vehicles,system
+urban environment,environment
+vertical take off and landing uavs,system
+very high altitude,system
+very low altitude (blos),system
+very low altitude (los),system
+vha,system
+vla/blos,system
+vla/los,system
+vtol uavs,system
+wildfire monitoring,mission
+ampersand uav,system
+black widow,system
+bourdon muav,system
+camcopter s 100,system
+diamond da42 twin star,system
+global hawk,system
+harop,system
+herti,system
+i drone,system
+patroller,system
+puma ae,system
+puma all environment,system
+raven,system
+rq 11b raven,system
+rq 7b shadow 200,system
+shadow 200,system
+short take off and landing opv,system
+stol opv,system
+tactical grenade extended range,system
+tiger,system
+wasp,system

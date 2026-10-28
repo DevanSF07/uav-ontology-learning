@@ -1,0 +1,66 @@
+{
+  "chunking": {
+    "max_words": 80,
+    "overlap_sentences": 1
+  },
+  "experiments": [
+    {
+      "id": "E01_yake_regex_term",
+      "extraction": {
+        "method": "yake",
+        "params": {
+          "top_k": 25
+        }
+      },
+      "noise": {
+        "enabled": true
+      },
+      "alias": {
+        "method": "regex"
+      },
+      "concept": {
+        "method": "cluster",
+        "params": {
+          "representation": "term",
+          "model": "all-MiniLM-L6-v2",
+          "n_clusters": 8
+        }
+      },
+      "typing": {
+        "enabled": true,
+        "params": {
+          "model": "llama3.1:8b",
+          "allow_fallback": true
+        }
+      }
+    },
+    {
+      "id": "E02_tfidf_regex_context",
+      "extraction": {
+        "method": "tfidf",
+        "params": {
+          "top_k": 25
+        }
+      },
+      "noise": {
+        "enabled": true
+      },
+      "alias": {
+        "method": "regex"
+      },
+      "concept": {
+        "method": "nmf",
+        "params": {
+          "representation": "term_context",
+          "n_factors": 8
+        }
+      },
+      "typing": {
+        "enabled": true,
+        "params": {
+          "allow_fallback": true
+        }
+      }
+    }
+  ]
+}

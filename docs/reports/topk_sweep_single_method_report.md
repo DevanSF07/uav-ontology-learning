@@ -1,0 +1,24 @@
+# Top-K Sweep Report (Single Method)
+
+- Method: `ensemble_yake_spacy_regex_acronym_pattern_union`
+- Combined corpus: `data/interim/combined_corpus.txt`
+- Gold JSON: `data/gold/terms_aliases 1.json`
+- Gold vocabulary size: `147`
+
+## Best result
+
+| Method | Best Top-K | Precision | Recall | F1 | TP | FP | FN | Predicted |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| ensemble_yake_spacy_regex_acronym_pattern_union | 150 | 0.1026 | 0.2993 | 0.1528 | 44 | 385 | 103 | 429 |
+
+## Full sweep results
+
+| Method | Top-K | Precision | Recall | F1 | TP | FP | FN | Predicted |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| ensemble_yake_spacy_regex_acronym_pattern_union | 25 | 0.1304 | 0.1837 | 0.1525 | 27 | 180 | 120 | 207 |
+| ensemble_yake_spacy_regex_acronym_pattern_union | 50 | 0.1151 | 0.1973 | 0.1454 | 29 | 223 | 118 | 252 |
+| ensemble_yake_spacy_regex_acronym_pattern_union | 75 | 0.1077 | 0.2177 | 0.1441 | 32 | 265 | 115 | 297 |
+| ensemble_yake_spacy_regex_acronym_pattern_union | 100 | 0.105 | 0.2449 | 0.1469 | 36 | 307 | 111 | 343 |
+| ensemble_yake_spacy_regex_acronym_pattern_union | 150 | 0.1026 | 0.2993 | 0.1528 | 44 | 385 | 103 | 429 |
+| ensemble_yake_spacy_regex_acronym_pattern_union | 200 | 0.0928 | 0.3265 | 0.1446 | 48 | 469 | 99 | 517 |
+| ensemble_yake_spacy_regex_acronym_pattern_union | 5453 | 0.0207 | 0.7687 | 0.0404 | 113 | 5340 | 34 | 5453 |
